@@ -11,13 +11,13 @@ It provides real-time product comparisons, deep sentiment analysis, active deal 
 
 ## 📸 Demo
 
-![Dashboard View](assets/dashboard.png)
+![Dashboard View](assets/shoplytics4.png)
 *The clean, premium Shoplytics interface.*
 
-![Intelligence Panel](assets/intelligence_panel.png)
+![Intelligence Panel](assets/shoplytics2.png)
 *Visualizing the AI's weighted decision scoring and reasoning.*
 
-![Database View](assets/database_view.png)
+![Database View](assets/shoplytics3.png)
 *The structured, clickable product catalog.*
 
 ---
