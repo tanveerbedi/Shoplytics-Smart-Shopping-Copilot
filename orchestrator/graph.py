@@ -74,16 +74,9 @@ async def summarize_node(state: AgentState) -> AgentState:
 
 def should_retry_or_deduplicate(state: AgentState) -> Literal["deduplicator", "browser"]:
     """
-    After extraction, decide whether to deduplicate or retry browsing.
-    Retry if no products and we haven't browsed many pages yet.
+    After extraction, proceed to deduplicate.
+    Removing the browser retry logic to prevent infinite loops when scraping fails.
     """
-    products = state.get("extracted_products", [])
-    raw_pages = state.get("raw_pages", [])
-
-    if not products and len(raw_pages) < 5:
-        logger.info("No products extracted – retrying browser with more URLs")
-        return "browser"
-
     return "deduplicator"
 
 

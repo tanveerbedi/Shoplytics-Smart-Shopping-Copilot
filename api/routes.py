@@ -36,7 +36,7 @@ async def _run_pipeline(task_id: str, query: str) -> None:
         "extracted_products": [],
         "analysis": None,
         "final_report": None,
-        "messages": [],
+        "messages": _tasks[task_id].messages,
         "current_step": "starting",
         "error": None,
     }

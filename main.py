@@ -17,7 +17,7 @@ from api.routes import router
 # ── Logging ──────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s │ %(name)-20s │ %(levelname)-7s │ %(message)s",
+    format="%(asctime)s | %(name)-20s | %(levelname)-7s | %(message)s",
     datefmt="%H:%M:%S",
     handlers=[logging.StreamHandler(sys.stdout)],
 )

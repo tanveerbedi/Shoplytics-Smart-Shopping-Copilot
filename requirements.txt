@@ -6,12 +6,12 @@ pydantic-settings==2.7.1
 python-dotenv==1.0.1
 
 # LangChain & LangGraph
-langchain==0.3.14
-langchain-core==0.3.29
-langchain-google-genai==2.0.8
-langchain-groq==0.3.1
-langchain-community==0.3.14
-langgraph==0.2.62
+langchain>=0.3.19,<0.4.0
+langchain-core>=0.3.47,<0.4.0
+langchain-google-genai>=2.0.8
+langchain-groq>=0.3.1
+langchain-community>=0.3.19,<0.4.0
+langgraph>=0.2.62,<0.3.0
 
 # Browser automation
 playwright==1.49.1
